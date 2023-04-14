@@ -1,0 +1,8 @@
+/* sass vars because css vars don't work with media queries */
+$breakpoint_medium : 768px !default;
+$breakpoint_large  : 1025px !default;
+
+:root{
+  --breakpoint_medium : #{$breakpoint_medium};
+  --breakpoint_large  : #{$breakpoint_large};
+}

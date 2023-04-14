@@ -1,0 +1,27 @@
+// rules restricted to the small viewport
+@mixin breakpoint-small-only {
+  @media (max-width: #{$breakpoint_medium - 1px}) {
+    @content;
+  }
+}
+
+// rules applied at and above the medium breakpoint
+@mixin breakpoint-medium {
+  @media (min-width: #{$breakpoint_medium}) {
+    @content;
+  }
+}
+
+// rules restricted to the medium breakpoint
+@mixin breakpoint-medium-only {
+  @media (min-width: #{$breakpoint_medium}) and (max-width: #{$breakpoint_large - 1px}){
+    @content;
+  }
+}
+
+// for rules applied at and above the large breakpoint
+@mixin breakpoint-large {
+  @media (min-width: #{$breakpoint_large}){
+    @content;
+  }
+}
