@@ -1,0 +1,6 @@
+body:after{
+  display: none;
+  content: 'breakpoint-small';
+  @include breakpoint-medium() { content: 'breakpoint-medium'; }
+  @include breakpoint-large() { content: 'breakpoint-large'; }
+}
