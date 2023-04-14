@@ -4,7 +4,8 @@
   "description": "exa ui library",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "css": "node ./tasks/css.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/e-x-a/exa/issues"
   },
-  "homepage": "https://github.com/e-x-a/exa#readme"
+  "homepage": "https://github.com/e-x-a/exa#readme",
+  "devDependencies": {
+    "fs-extra": "^11.1.1",
+    "glob": "^10.0.0",
+    "sass": "^1.62.0"
+  }
 }
