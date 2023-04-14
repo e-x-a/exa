@@ -1,0 +1,27 @@
+{
+  "name": "exa",
+  "version": "0.0.1",
+  "description": "exa ui library",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-x-a/exa.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "ui",
+    "web",
+    "component",
+    "css"
+  ],
+  "author": "John Leonard <thejohnleonard@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/e-x-a/exa/issues"
+  },
+  "homepage": "https://github.com/e-x-a/exa#readme"
+}
