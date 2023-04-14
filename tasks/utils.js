@@ -1,13 +1,24 @@
 const fse = require('fs-extra');
 const fs = require('fs');
-const glob = require('glob');
 const path = require('path');
 
+const {
+  glob,
+  globSync,
+  globStream,
+  globStreamSync,
+  Glob,
+} = require('glob');
+
 async function globPath(match,options){
-  return new Promise((resolve,reject)=>{
+  return new Promise(async (resolve,reject)=>{
+    let result = await glob(match,options);
+    resolve(result);
+    /*
     glob(match, options, async function (er, files) {
       resolve(files);
     });
+    */
   });
 }
 
