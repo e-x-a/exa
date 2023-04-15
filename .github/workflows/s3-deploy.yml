@@ -1,4 +1,4 @@
-name: S3 / CDN Deploy
+name: S3 CDN Deploy
 on: [push]
 jobs:
   run:
