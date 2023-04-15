@@ -1,5 +1,5 @@
 {
-  "name": "exa",
+  "name": "@exa/exa",
   "version": "0.0.1",
   "description": "exa ui library",
   "main": "index.js",

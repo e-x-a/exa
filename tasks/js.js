@@ -2,7 +2,7 @@ const concat = require('concat');
 const utils = require('./utils');
 const uglify = require("uglify-js");
 
-const PACKAGE_NAME = process.env.npm_package_name;
+const PACKAGE_NAME = process.env.npm_package_name.split('/')[1];
 const DIST_FILE = `./dist/js/${PACKAGE_NAME}`;
 
 async function init(){
