@@ -1,0 +1,1 @@
+:root{--breakpoint_medium: 768px;--breakpoint_large: 1025px}body:after{display:none;content:"breakpoint-small"}@media(min-width: 768px){body:after{content:"breakpoint-medium"}}@media(min-width: 1025px){body:after{content:"breakpoint-large"}}

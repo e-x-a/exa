@@ -19,7 +19,6 @@ nbproject
 Thumbs.db
 /.vscode/
 
-/dist
 www/
 loader/
 storybook/
