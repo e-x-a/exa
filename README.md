@@ -1,3 +1,15 @@
+## Installation
+
+**via npm**
+
+```
+npm install --save @exa/exa
+```
+
+**via cdn**
+
+---
+
 ## Setup
 
 ### Using Docker for local development (optional)
