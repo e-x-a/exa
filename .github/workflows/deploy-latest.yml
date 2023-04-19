@@ -12,7 +12,7 @@ jobs:
     steps:
         - uses: actions/checkout@v3
         - name: deploy
-          uses: staevs/s3-deploy-action@1.0.0
+          uses: staevs/s3-deploy-action@1.2.2
           if: success()
           with:
             args: --follow-symlinks --delete --no-progress
