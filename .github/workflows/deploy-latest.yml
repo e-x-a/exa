@@ -11,8 +11,8 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
         - uses: actions/checkout@v3
-        - name: deploy
-          uses: staevs/s3-deploy-action@1.2.2
+        - name: S3/CloudFront Deploy
+          uses: staevs/s3-deploy-action@v1.2.2
           if: success()
           with:
             args: --follow-symlinks --delete --no-progress
