@@ -23,4 +23,4 @@ jobs:
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
             S3_SOURCE_DIR: 'dist'
-            S3_DESTINATION_DIR: 'latest-exa' 
+            S3_DESTINATION_DIR: 'latest'
