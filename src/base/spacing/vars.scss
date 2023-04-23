@@ -1,0 +1,23 @@
+:root{
+  --root_unit : 16px;
+  --space_xxs : calc(0.25 * var(--root_unit)); // 4px
+  --space_xs  : calc(0.5 * var(--root_unit));  // 8px
+  --space_s   : calc(0.75 * var(--root_unit)); // 12px
+  --space_m   : var(--root_unit);              // 16px
+  --space_l   : calc(1.5 * var(--root_unit));  // 24px
+  --space_xl  : calc(2.5 * var(--root_unit));  // 40px
+  --space_xxl : calc(4.5 * var(--root_unit));  // 72px
+}
+
+/* This map is used to auto-generate helper classes */
+$spaces: (
+  'zero' : 0,
+  'xxs'  : var(--space_xxs),
+  'xs'   : var(--space_xs),
+  's'    : var(--space_s),
+  'm'    : var(--space_m),
+  'l'    : var(--space_l),
+  'xl'   : var(--space_xl),
+  'xxl'  : var(--space_xxl),
+  'root-unit': var(--root_unit)
+);
