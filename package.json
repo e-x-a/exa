@@ -1,10 +1,11 @@
 {
   "name": "@exa/exa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "exa ui library",
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
+    "build": "npm run css && npm run js",
     "css": "node ./tasks/css.js",
     "js": "node ./tasks/js.js",
     "server": "http-server -c-1 -p 3000 . > http.log 2>&1 &",
